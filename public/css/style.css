@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("../img/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(32%);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+img{
+    width: 340px;
+}
+
+table{
+    border-radius: 10px;
+    border: 10px solid rgb(255, 252, 45);
+    background-color: rgb(6, 1, 24);
+    color: white;
+    padding: 20px;
+    
+    box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.342);
+}
+
+td{
+    border: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
