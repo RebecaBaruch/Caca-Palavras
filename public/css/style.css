@@ -10,7 +10,7 @@ body{
     align-items: center;
     height: 100vh;
 
-    background-image: url("../img/bg-img.jpg");
+    background-image: url("../img/bg-img02.png");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: brightness(32%);
@@ -24,23 +24,30 @@ div{
     align-items: center;
 }
 
+h1{
+    color: white;
+    font-size: 14px;
+    font-weight: 1000;
+}
+
 img{
-    width: 340px;
+    width: 200px;
 }
 
 table{
     border-radius: 10px;
-    border: 10px solid rgb(255, 252, 45);
-    background-color: rgb(6, 1, 24);
+    border: 8px solid #F8333C;
+    background-color: rgb(0, 5, 22);
     color: white;
-    padding: 20px;
-    
+    padding: 5px;
+    font-size: 12px;
+
     box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.342);
 }
 
 td{
     border: 0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
 }
